@@ -24,7 +24,7 @@ class MyTestCase(unittest.TestCase):
         self.mynumbers = (1.0, 0.0)
         with self.assertRaises(ZeroDivisionError):
             division = Division(self.mynumbers)
-            assert division.get_result() == 0.5
+            assert division.get_result() == 0.0
 
 if __name__ == '__main__':
     unittest.main()

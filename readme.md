@@ -1,5 +1,5 @@
 # Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/okbWork/calc2.svg?branch=main)](https://app.travis-ci.com/okbWork/calc2)
+[![Build Status](https://app.travis-ci.com/okbWork/calc2.1.svg?branch=main)](https://app.travis-ci.com/okbWork/calc2.1)
 
 To run tests, Lint, and Coverage report use this command:
 

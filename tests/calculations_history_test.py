@@ -18,12 +18,10 @@ def test_add_calculation_to_history(clear_history_fixture):
     assert len(Calculations.history) == 1
 
 def test_clear_calculation_history(clear_history_fixture):
+    """Tests the function to clear the calculator history"""
+    # pylint: disable=unused-argument,redefined-outer-name,singleton-comparison
     values = (1,2)
     addition = Addition(values)
     Calculations.history.append(addition)
     assert len(Calculations.history) == 1
-    Calculations.clear_history()
-    assert len(Calculations.history) == 0
-    assert Calculations.clear_history() == True
-
-
+    assert Calculations.clear_history()

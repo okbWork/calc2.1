@@ -23,8 +23,7 @@ class MyTestCase(unittest.TestCase):
         """ testing dividing by 0"""
         self.mynumbers = (1.0, 0.0)
         with self.assertRaises(ZeroDivisionError):
-            self.Division(self.mynumbers)
-
+            x_value = Division(self.mynumbers)
 
 if __name__ == '__main__':
     unittest.main()

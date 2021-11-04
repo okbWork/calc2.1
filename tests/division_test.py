@@ -10,7 +10,7 @@ from calc.calculations.division import Division
 
 class MyTestCase(unittest.TestCase):
     def test_calculation_division(self):
-        """testing that our calculator has a static method for addition"""
+        """testing that our calculator has a static method for division"""
         # Arrange
         mynumbers = (1.0, 2.0)
         division = Division(mynumbers)

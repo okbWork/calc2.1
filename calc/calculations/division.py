@@ -1,4 +1,4 @@
-"""Addition Class"""
+"""Division Class"""
 from calc.calculations.calculation import Calculation
 
 class Division(Calculation):

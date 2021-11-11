@@ -36,3 +36,8 @@ class Calculator:
         """ multiplication number from result"""
         multiplication = Multiplication(args)
         return multiplication.get_result()
+    @staticmethod
+    def divide_numbers(*args):
+        """ division number from result"""
+        division = Division(args)
+        return division.get_result()

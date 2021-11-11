@@ -36,9 +36,11 @@ class Calculator:
     def multiply_numbers(*args):
         """ multiplication number from result"""
         multiplication = Multiplication(args)
+        Calculator.history.append(multiplication)
         return multiplication.get_result()
     @staticmethod
     def divide_numbers(*args):
         """ division number from result"""
         division = Division(args)
+        Calculator.history.append(division)
         return division.get_result()

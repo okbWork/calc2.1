@@ -1,3 +1,10 @@
-fully functional project in main branch.
+To run tests, Lint, and Coverage report use this command:
+
+pytest  --pylint --cov
+
+.pylintrc is the config for pylint
+.coveragerc is the config for coverage
+setup.py is a config file for pytest
+
 
 Article on Website: http://20.85.183.133/Article4.html

@@ -1,4 +1,3 @@
-
 To run tests, Lint, and Coverage report use this command:
 
 pytest  --pylint --cov
@@ -9,7 +8,8 @@ setup.py is a config file for pytest
 
 Articles on Website: http://20.85.183.133/
 =======
+
+Article on Website: http://20.85.183.133/Article3.html
+
+=======
 fully functional project in main branch.
-
-Article on Website: http://20.85.183.133/Article2.html
-
